@@ -34,7 +34,7 @@ app.get('/api', (req, res) => {
   // JSON response construction
   const response = {
     slack_name: slackName,
-    currentDay: currentDay,
+    current_day: currentDay,
     utc_time: currentUtcTime,
     track: track,
     github_file_url: 'https://github.com/Laban254/HNGx-INTERNSHIP/tree/main/STAGE-1',
