@@ -16,7 +16,7 @@ app.get('/api', (req, res) => {
   }
 
   const today = moment().utc();
-  const currentUtcTime = today.format('YYYY-MM-DDTHH:mm:ssZ');
+  const currentUtcTime = today.format('YYYY-MM-DDTHH:mm:ss[Z]');
 
   const currentDay = moment().format('dddd');
 
