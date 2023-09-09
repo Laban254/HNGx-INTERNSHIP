@@ -18,7 +18,7 @@ app.get('/api', (req, res) => {
   const today = moment().utc();
   const currentUtcTime = today.format('YYYY-MM-DDTHH:mm:ssZ');
 
-  currentDay = moment().format('dddd');
+  const currentDay = moment().format('dddd');
 
   // JSON response construction
   const response = {
