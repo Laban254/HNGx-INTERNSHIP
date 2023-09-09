@@ -1,4 +1,5 @@
 import express from 'express';
+import moment from 'moment';
 const app = express();
 const port = 3000;
 
@@ -14,22 +15,10 @@ app.get('/api', (req, res) => {
     return; // Return early to avoid executing the rest of the code
   }
 
-  // Current date
-  const currentDate = new Date();
+  const today = moment().utc();
+  const currentUtcTime = today.format('YYYY-MM-DDTHH:mm:ssZ');
 
-  const dayNameOfTheWeek = [
-    'Sunday',
-    'Monday',
-    'Tuesday',
-    'Wednesday',
-    'Thursday',
-    'Friday',
-    'Saturday',
-  ];
-
-  // Getting the current day of the week
-  const currentDay = dayNameOfTheWeek[currentDate.getDay()];
-  const currentUtcTime = new Date().toISOString();
+  currentDay = moment().format('dddd');
 
   // JSON response construction
   const response = {
