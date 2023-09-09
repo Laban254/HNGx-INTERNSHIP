@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "name": "stage-1",
+  "version": "1.0.0",
+  "description": "- Create and host an endpoint using any programming language of your choice. - The endpoint should take two GET request query parameters and return specific information in JSON format. # ![image](https://github.com/Laban254/HNGx-INTERNSHIP/assets/64686919/b50a3030-1be8-4fe7-b74a-3e2acd0dd778) Requirements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
