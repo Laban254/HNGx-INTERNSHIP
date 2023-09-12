@@ -34,7 +34,8 @@ PORT=3000
 Ensure that your MongoDB server is running. Update the MongoDB connection URI in your application code to use the MONGODB_URI environment variable set in your .env file.
 ### 5 Start the API:
 Start your API server using the following command:
-``` npm run dev
+```
+npm run dev
 ```
 ### 6Test the API:
 Test using tools such as Postman  and Curl
