@@ -7,12 +7,12 @@ This project aims to develop a simple REST API capable of CRUD (Create, Read, Up
 - **UPDATE:** Modify details of an existing person via the endpoint  => **/api/user_id**
 - **DELETE:** Remove a person using the endpoint  => **/api/user_id**
 
-## Local Setup and Deployment
+##  ♉ Local Setup and Deployment
 ### Prerequisites:
 - Node.js and npm installed on your computer.
 - MongoDB installed and running locally (or you can use a cloud-hosted MongoDB service).
 
-## Steps:
+## 🔁 Steps:
 ### 1 Clone the Repository:
 Clone your API project repository from GitHub or any other version control platform.
 ```
