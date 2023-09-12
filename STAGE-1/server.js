@@ -3,6 +3,10 @@ import moment from 'moment';
 const app = express();
 const port = 3000;
 
+app.get('/', (req, res) => {
+  res.send('HNGx internship')
+});
+
 app.get('/api', (req, res) => {
   const slackName = req.query.slack_name;
   const track = req.query.track;
