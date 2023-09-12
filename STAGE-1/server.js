@@ -20,7 +20,7 @@ app.get('/api', (req, res) => {
 
   const currentDay = moment().format('dddd');
 
-  // JSON response construction
+  // JSON response construction 
   const response = {
     slack_name: slackName,
     current_day: currentDay,
@@ -31,7 +31,7 @@ app.get('/api', (req, res) => {
     status_code: 200,
   };
 
-  // Send the JSON response
+  // Send the JSON response to client
   res.json(response);
 });
 
