@@ -45,7 +45,7 @@ To use this API, you can make HTTP requests to the following endpoints:
 
 ## Author
 
-This API was created by [Your Name].
+This API was created by [Laban Kibet](https://github.com/Laban254).
 
 Feel free to explore the API and use it to manage user records in your application.
 
