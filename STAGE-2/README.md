@@ -12,6 +12,8 @@ This project aims to develop a simple REST API capable of CRUD (Create, Read, Up
 - Node.js and npm installed on your computer.
 - MongoDB installed and running locally (or you can use a cloud-hosted MongoDB service).
 
+[API Endpoint](https://hngx-internship-rest-api.onrender.com/api/persons)
+
 ## 🔁 Steps:
 ### 1 Clone the Repository:
 Clone your API project repository from GitHub or any other version control platform.
