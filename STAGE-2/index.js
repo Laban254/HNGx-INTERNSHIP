@@ -13,7 +13,7 @@ app.use((req, res, next) => {
 });
 
 //routes 
-app.use('/api/persons', router);
+app.use('/api/', router);
 
 // connect to db
 mongoose.connect(process.env.MONGO_URI)
