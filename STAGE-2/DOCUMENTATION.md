@@ -1,4 +1,4 @@
-# API Documentation
+# API Documentation   & UML Diagram
 
 ## Introduction
 
@@ -147,3 +147,66 @@ DELETE /api/persons/12345
 - This API assumes that all requests and responses are in JSON format.
 - The API assumes the use of a MongoDB database for storing person data.
 - Error responses are standardized but may not cover all edge cases.
+
+## UML Diagram
+
+```plaintext
++-------------------------+
+|       Node.js App       |
++-------------------------+
+|                         |
+|                         |
+|                         |
+|                         |
+| +---------------------+ |
+| |   userController   | |
+| +---------------------+ |
+| | + creatPerson()    | |
+| | + getPerson()      | |
+| | + updatePerson()   | |
+| | + delPerson()      | |
+| |                     | |
+| +---------------------+ |
+|                         |
+|                         |
++-------------------------+
+      |           ^
+      |           |
+      v           |
++-------------------------+
+|     personModel (M)     |
++-------------------------+
+|                         |
+|                         |
+|                         |
+| +---------------------+ |
+| |      personSchema   | |
+| | + name: String     | |
+| | + age: Number      | |
+| | + gender: String   | |
+| |                     | |
+| +---------------------+ |
+|                         |
+|                         |
++-------------------------+
+      |           ^
+      |           |
+      v           |
++-------------------------+
+|       Express Routes    |
++-------------------------+
+|                         |
+|                         |
+|                         |
+| +---------------------+ |
+| |   Express Router    | |
+| | + POST /            | |
+| | + GET /:user_id     | |
+| | + PUT /:user_id     | |
+| | + DELETE /:user_id  | |
+| |                     | |
+| +---------------------+ |
+|                         |
+|                         |
++-------------------------+
+
