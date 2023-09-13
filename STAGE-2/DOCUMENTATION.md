@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the official documentation for our API. This guide provides comprehensive information on API endpoints, request and response formats, sample usage scenarios, known limitations, and deployment instructions.
+Welcome to the official documentation for our API. This guide provides comprehensive information on API endpoints, request and response formats, sample usage scenarios and  known limitations.
 
 ## Standard Request and Response Formats
 
