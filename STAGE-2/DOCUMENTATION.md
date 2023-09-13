@@ -10,7 +10,7 @@ Welcome to the official documentation for our API. This guide provides comprehen
 
 ## Create a New Person
 
-- **Endpoint:** `POST /api/persons`
+- **Endpoint:** `POST /api/`
 - **Request Body (JSON):**
   ```
   {
@@ -22,11 +22,11 @@ Welcome to the official documentation for our API. This guide provides comprehen
 
 ## Get a Person by ID
 
-**Endpoint:** `GET /api/persons/:user_id`
+**Endpoint:** `GET /api/:user_id`
 
 ### Update a Person's Profile
 
-**Endpoint:** `PUT /api/persons/:user_id`
+**Endpoint:** `PUT /api/:user_id`
 
 **Request Body (JSON):**
 
@@ -38,7 +38,7 @@ Welcome to the official documentation for our API. This guide provides comprehen
 ```
 ## Delete a Person by ID
 
-**Endpoint:** `DELETE /api/persons/:user_id`
+**Endpoint:** `DELETE /api/:user_id`
 
 # ☯️ Responses
 
@@ -70,7 +70,7 @@ Welcome to the official documentation for our API. This guide provides comprehen
 **Request:**
 ```
 
-POST /api/persons
+POST /api/
 Content-Type: application/json
 
 {
@@ -107,7 +107,7 @@ Content-Type: application/json
 ## Update a Person's Profile
 ### Request:
 ```
-PUT /api/persons/12345
+PUT /api/12345
 Content-Type: application/json
 
 {
@@ -129,7 +129,7 @@ Content-Type: application/json
 ## Delete a Person by ID
 ### Request:
 ```
-DELETE /api/persons/12345
+DELETE /api/12345
 ```
 ### Response (HTTP Status 200):
 
