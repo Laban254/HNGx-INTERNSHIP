@@ -17,13 +17,13 @@ This API is designed to manage and interact with a collection of user informatio
 
 To use this API, you can make HTTP requests to the following endpoints:
 
-- `POST /api/persons`: Create a new user by providing name, age, and gender in the request body.
+- `POST /api/`: Create a new user by providing name, age, and gender in the request body.
 
-- `GET /api/persons/:user_id`: Get user information by providing the user's ID as a parameter.
+- `GET /api/:user_id`: Get user information by providing the user's ID as a parameter.
 
-- `PUT /api/persons/:user_id`: Update user information by providing the user's ID as a parameter and the updated data in the request body.
+- `PUT /api/:user_id`: Update user information by providing the user's ID as a parameter and the updated data in the request body.
 
-- `DELETE /api/persons/:user_id`: Delete a user by providing their ID as a parameter.
+- `DELETE /api/:user_id`: Delete a user by providing their ID as a parameter.
 
 ## Getting Started
 
@@ -35,7 +35,7 @@ To use this API, you can make HTTP requests to the following endpoints:
 
 4. Start the application using `npm start`.
 
-5. The API will be accessible at `http://localhost:<port>/api/persons`, where `<port>` is the port number specified in your environment.
+5. The API will be accessible at `http://localhost:<port>/api/`, where `<port>` is the port number specified in your environment.
 
 ## Dependencies
 
