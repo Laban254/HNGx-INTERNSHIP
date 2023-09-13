@@ -152,7 +152,7 @@ DELETE /api/persons/12345
 
 ```plaintext
 +-------------------------+
-|       Node.js App       |
+|       userController       |
 +-------------------------+
 |                         |
 |                         |
