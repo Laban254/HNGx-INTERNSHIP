@@ -6,7 +6,7 @@ Welcome to the official documentation for our API. This guide provides comprehen
 
 ## Standard Request and Response Formats
 
-# Requests
+# ☸️ Requests
 
 ## Create a New Person
 
@@ -40,7 +40,7 @@ Welcome to the official documentation for our API. This guide provides comprehen
 
 **Endpoint:** `DELETE /api/persons/:user_id`
 
-# Responses
+# ☯️ Responses
 
 #### Success Response (HTTP Status 200)
 
@@ -65,7 +65,7 @@ Welcome to the official documentation for our API. This guide provides comprehen
 }
 ```
 
-# Sample Usage
+# ☮️ Sample Usage
 ## Create a New Person
 **Request:**
 ```
