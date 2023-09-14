@@ -12,7 +12,7 @@ Welcome to the official documentation for our API. This guide provides comprehen
 
 - **Endpoint:** `POST /api/`
 - **Request Body (JSON):**
-  ```
+  ```json
   {
     "name": "Laban KIbet",
     "age": 25,
@@ -30,7 +30,7 @@ Welcome to the official documentation for our API. This guide provides comprehen
 
 **Request Body (JSON):**
 
-```
+```json
   {
     "name": "Updated Name",
     "age": 35
@@ -45,7 +45,7 @@ Welcome to the official documentation for our API. This guide provides comprehen
 #### Success Response (HTTP Status 200)
 
 **Response Body (JSON) for GET requests:**
-```
+```json
 {
   "_id": "12345",
   "name": "Laban Kibet",
@@ -59,7 +59,7 @@ Welcome to the official documentation for our API. This guide provides comprehen
 #### Error Response (HTTP Status 400)
 
 **Response Body (JSON):**
-```
+```json
 {
   "error": "Invalid request data"
 }
@@ -68,11 +68,12 @@ Welcome to the official documentation for our API. This guide provides comprehen
 # ☮️ Sample Usage
 ## Create a New Person
 **Request:**
-```
 
+```
 POST /api/
 Content-Type: application/json
-
+```
+```json
 {
   "name": "Laban KIbet",
   "age": 25,
@@ -80,7 +81,7 @@ Content-Type: application/json
 }
 ```
 ### Response (HTTP Status 200):
-```
+```json
 {
   "_id": "12345",
   "name": "Laban Kibet",
@@ -93,7 +94,7 @@ Content-Type: application/json
 
 ## Get a Person by ID
 ### Response (HTTP Status 200):
-```
+```json
 {
   "_id": "12345",
   "name": "Laban KIbet",
@@ -106,17 +107,18 @@ Content-Type: application/json
 
 ## Update a Person's Profile
 ### Request:
-```
-PUT /api/12345
+```PUT /api/12345
 Content-Type: application/json
+```
 
+```json
 {
   "name": "Updated Name",
   "age": 35
 }
 ```
 ### Response (HTTP Status 200):
-```
+```json
 {
   "_id": "12345",
   "name": "Updated Name",
@@ -133,7 +135,7 @@ DELETE /api/12345
 ```
 ### Response (HTTP Status 200):
 
-```
+```json
 {
   "_id": "12345",
   "name": "Updated Name",
